@@ -2,36 +2,10 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description:
 nav: true
 nav_order: 3
 ---
-
-## GitHub users
-
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.html username=user %}
-  </div>
-
-  ---
-
-{% endfor %}
-{% endif %}
-{% endif %}
 
 ## GitHub Repositories
 
@@ -42,3 +16,13 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+---
+
+## Data Repositories
+
+<a href="https://chaos.if.uj.edu.pl/ZOA/index.php?which=opendata&dataset=/2303.13940">2303.13940</a>
+ Femtosecond pulse parameter estimation from photoelectron momenta using machine learning
+ 
+<a href="https://chaos.if.uj.edu.pl/ZOA/index.php?which=opendata&dataset=/2303.13940">2211.11480</a> Tracking locality in time evolution of disordered systems
+
+<a href="https://chaos.if.uj.edu.pl/ZOA/index.php?which=opendata&dataset=/2201.07151">2201.07151</a> Unsupervised detection of decoupled subspaces: many-body scars and beyond
