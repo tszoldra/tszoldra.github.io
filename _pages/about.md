@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Many-body quantum physics & Machine learning enthusiast
+subtitle: Many-body quantum physics & Machine Learning enthusiast
 profile:
   align: right
   image: prof_pic.jpg
