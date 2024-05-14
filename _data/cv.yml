@@ -117,6 +117,9 @@
 - title: Scholarships
   type: time_table 
   contents:
+    - year: 2024
+      items: 
+        - Foundation for Polish Science START scholarship
     - year: 2020-2024
       items: 
         - Doctoral student scholarship in the NCN OPUS project "Many-body localization - cold atoms approach 2"
