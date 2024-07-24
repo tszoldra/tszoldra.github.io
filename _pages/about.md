@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Many-body quantum physics & Machine Learning enthusiast
+subtitle: Nonequilibrium many-body quantum physics & machine learning
 profile:
   align: right
   image: prof_pic.jpg
@@ -22,5 +22,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a PhD student at the Jagiellonian University in Kraków interested in different aspects of many-body quantum physics and machine learning. See the list of my <a href="/publications">publications</a>, code and data <a href="/repositories">repositories</a>, or have a look at my <a href="/cv">CV</a>.
+I am a PhD student at the Jagiellonian University in Kraków interested in different aspects of many-body quantum physics and machine learning. See the list of my <a href="/publications">publications</a>, <a href="/repositories">code and data repositories</a>, or have a look at my <a href="/cv">CV</a>.
 

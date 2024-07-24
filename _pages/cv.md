@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: tomasz_szoldra_cv_sci_en.pdf
-description: Longer PDF version can be downloaded by clicking on the button.
+description: PDF version can be downloaded by clicking on the button.
 toc:
   sidebar: left
 ---
